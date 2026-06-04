@@ -1,0 +1,28 @@
+{
+  "name": "deSloppify Google",
+  "author": "frostbite69425",
+  "description": "A simple browser extension to remove AI slop overview from google search",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": "poison.png"
+  },
+  "icons": {
+    "16": "poison.png",
+    "32": "poison.png",
+    "64": "poison.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "all_frames": true,
+      "css": ["deslop.css"],
+      "js": ["scripts/script.js"],
+      "matches": ["https://www.google.com/search*"]
+    }
+  ],
+  "permissions": ["activeTab", "scripting", "storage"]
+}
