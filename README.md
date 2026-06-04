@@ -47,20 +47,6 @@ The extension icon will appear in your toolbar. Badge shows **ON** (AI Overview 
 
 ---
 
-## Project Structure
-
-```
-deSloppify-google/
-├── background.js          # Service worker — toggle logic, storage, badge state
-├── scripts/
-│   └── script.js          # Content script — applies state on load, listens for messages
-├── deslop.css             # Hides AI Overview container by default
-├── manifest.json          # Extension manifest v3
-└── protest.svg            # Extension icon
-```
-
----
-
 ## Tech
 
 - Chrome Extensions Manifest V3
