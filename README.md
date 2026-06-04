@@ -2,7 +2,7 @@
 
 A Chrome extension that automatically removes the AI Overview from Google Search results. Togglable — turn it off when you want it, on when you don't. State persists across page loads and browser sessions.
 
-![Badge](https://img.shields.io/badge/manifest-v3-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+![Badge](https://img.shields.io/badge/manifest-v3-blue) ![License](https://img.shields.io/badge/license-GPL-green)
 
 ---
 
@@ -73,4 +73,4 @@ deSloppify-google/
 
 ## License
 
-MIT
+GPL
